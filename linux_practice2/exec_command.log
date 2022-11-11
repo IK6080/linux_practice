@@ -1,0 +1,133 @@
+    1  ;
+    2  docker stop centos7
+    3  exit
+    4  exit
+    5  ls
+    6  cd /home
+    7  ls
+    8  rm test1_copy/*.php
+    9  ls test1_copy
+   10  rm test1_copy/*.php
+   11  ls test1_copy
+   12  cd /home
+   13  cat README.md
+   14  echo '# Linux ' > README.md
+   15  cat README.md
+   16  cd /home
+   17  echo 'Linux Practice' >> README.md
+   18  echo '--------------' >> README.md
+   19  cat README.md
+   20  cd /home
+   21  vi README.md
+   22  cd /root
+   23  mkdir server_lesson && cd server_lesson
+   24  yum update -y && -y install git
+   25  git version
+   26  git init
+   27  git version
+   28  yum update -y && yum -y install git
+   29  git version
+   30  git init
+   31  touch first.txt
+   32  ls
+   33  cd /root
+   34  ls
+   35  cd server_lesson
+   36  ls
+   37  cd linux_practice2
+   38  ls
+   39  mkdir documents
+   40  ls
+   41  cd documents
+   42  pwd
+   43  touch gizmo{01..50}.md
+   44  ls
+   45  cd ../
+   46  touch trash
+   47  ls
+   48  cd trash
+   49  cd trash
+   50  ls
+   51  cd trash
+   52  rm trash
+   53  ls
+   54  touch trash
+   55  ls
+   56  cd trash
+   57  rm trash
+   58  ls
+   59  mkdir trash
+   60  ls
+   61  cd trash
+   62  cd ../
+   63  mv gizmo01.md trash
+   64  mv documents/gizmo01.md trash
+   65  cd -
+   66  ls
+   67  cd ../
+   68  mv trash/gizmo01.md documents
+   69  cd documents
+   70  ls
+   71  cd ../
+   72  mv documents/gizmo20.md gizmo21.md gizumo22.md gizumo23.md gizumo24.md gizumo25.md gizumo26.md gizumo27.md gizumo28.md gizumo29.md gizumo30.md trash
+   73  mv documents/gizmo20.md gizmo21.md trash
+   74  mv documents/gizmo20.md documents/gizmo21.md trash
+   75  mv documents/gizmo20.md gizmo21.md trash
+   76  mv documents/gizmo20.md trash
+   77  mv gizmo20.md trash
+   78  mv documents/gizmo20.md trash
+   79  cd documents
+   80  ls
+   81  cd -
+   82  cd trash
+   83  ls
+   84  cd -
+   85  mv documents/{gizmo22.md..40}.md trash
+   86  cd trash
+   87  ls
+   88  cd -
+   89  mv documents/gizmo{22..40}.md trash
+   90  cd trash
+   91  ls
+   92  cd -
+   93  mkdir .gitignore
+   94  ls
+   95  touch .gitignore
+   96  ls
+   97  cd .gitignore
+   98  vi gitignore
+   99  vi gitignore
+  100  cd ../../
+  101  cd linux_practice2
+  102  touch exec_command.log
+  103  ls -a
+  104  ls
+  105  cd exec_command.log
+  106  cd /exec_command.log
+  107  cd exec_command.log
+  108  history -w 300 /exec_command.log
+  109  ls exec_command.log
+  110  vi exec_command.log
+  111  cat exec_command.log
+  112  ls
+  113  cat 300
+  114  history -w 300/exec_command.log
+  115  ls
+  116  cat exec_command.log
+  117  rm 300
+  118  ls
+  119  rm exec_commmand.log
+  120  rm exec_command.log
+  121  ls
+  122  history 300 -w exec_command.log
+  123  history 300
+  124  ls
+  125  history 300 >exec.command.log
+  126  ls
+  127  cat exec.cammand.log
+  128  cat exec_cammand.log
+  129  rm exec_cammand.log
+  130  rm exec.cammand.log
+  131  rm exec.command.log 
+  132  ls
+  133  history 300 > exec_command.log
